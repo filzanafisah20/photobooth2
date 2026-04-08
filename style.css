@@ -1,0 +1,42 @@
+/* Place your CSS styles in this file */
+
+h1{
+   text-align:center;
+   font-family:"Source Sans Pro", sans-serif;
+   font-weight:normal;
+   color: black;
+}
+ul {Iist-styIe-type:none;}
+li {font-size:20px;}
+li {display:inline;j
+ul {color: black; border:1px solid black ;}
+u1 {background-color:azure;}
+ul {text-align:center;}
+ul {border-radius:10px;}
+li {padding:30px;}
+
+p {
+    color:u blue;
+    text-alien:left;
+    font-size:20px;
+}
+
+#р2 {
+     font-size:20px;
+     text-align:right ;
+     font-weight :bold;
+     color: black;
+}
+
+
+
+#p2 {font-size:20px ;
+    text-align: left ;
+    font-weight :normal ;
+    color: black ;
+
+}
+marquee {
+    font-size: xx-large;
+}
+body {background-color:bridge;}
