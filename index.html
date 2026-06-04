@@ -1,56 +1,246 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jumino - Makeup Tutorial</title>
+  <meta name="description" content="Jumino - Website tutorial makeup dari kelompok Jumino. Temukan berbagai style makeup: Douyin, Korean, Baddie, Scandinavian, dan Soft Glam.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<html>
-    <head>
-        <meta charset="utf-8">
+  <!-- Floating Clover Decorations -->
+  <div class="floating-clover">🍀</div>
+  <div class="floating-clover">🍀</div>
+  <div class="floating-clover">🍀</div>
+  <div class="floating-clover">🍀</div>
+  <div class="floating-clover">🍀</div>
 
-        
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-content">
+      <a href="#" class="nav-logo" onclick="navigateTo('page-home'); return false;">
+        <img src="images/logo.jpg" alt="Jumino Logo">
+        <span class="nav-logo-text">JUMINO</span>
+      </a>
 
-        <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
+      <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    </head>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active" onclick="navigateTo('page-home'); return false;" id="nav-home">🏠 Home</a></li>
+        <li><a href="#" onclick="navigateTo('page-design'); return false;" id="nav-design">✨ Design Process</a></li>
+        <li><a href="#" onclick="navigateTo('page-tutorial'); return false;" id="nav-tutorial">🛍️ Produk</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <body>
+  <!-- ═══ PAGE: HOME ═══ -->
+  <div class="page active" id="page-home">
+    <div class="container">
 
-        <h1>Jumino </h1>
-        <ul> 
-            <li> Home </li>
-            <li><a href="design.html"> Design </a> </li>
-            <li><a href="product.html"> Product </a> </li>
-        </ul>
-    <p id="p2"> Welcome to Our Website! Halo semuaa..
-      <br>  Perkenalkan, kami dari kelompok Jumino. Kami beranggotakan empat orang yaitu:
-     <br> 1. Filza Nafisah Purboyo (13)
-     <br> 2. Kimiko Trixie Aqeelah (21)
-     <br> 3. Nirwana Putri Arni (31)
-     <br> 4. Rifaya Aysel Maharani (33)
-       <br>
-        <br> ────୨ৎ────
-    </p>
+      <!-- Hero -->
+      <section class="hero">
+        <img src="images/logo.jpg" alt="Jumino Logo" class="hero-logo">
+        <h1>JUMINO</h1>
+        <p class="subtitle">Makeup Tutorial Website</p>
+        <p class="divider">────୨ৎ────</p>
+        <p class="hero-description">
+          Welcome to Our Website! Halo semuaa.. 👋<br>
+          Perkenalkan, kami dari kelompok <strong>Jumino</strong>.
+          Melalui website ini, kami menghadirkan berbagai tutorial makeup dari berbagai style yang sedang trending.
+          Yuk explore dan temukan look favoritmu! 💖
+        </p>
+      </section>
 
-         <p id="p2"> 
-         <br> Kelompok kami terdiri dari empat orang yang saling mendukung dan bekerja sama dengan baik.
-         <br> Melalui kebersamaan ini, kami berupaya menghasilkan ide-ide kreatif serta membangun kerja tim yang solid dan harmonis.
-         <br> Terima kasih!!!
-            </p>
+      <!-- Team -->
+      <section class="team-section">
+        <h2 class="section-title">👥 Our Team</h2>
+        <p class="section-subtitle">Meet the Jumino squad!</p>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="number">13</div>
+            <p class="name">Filza Nafisah Purboyo</p>
+            <p class="role">Team Member</p>
+          </div>
+          <div class="team-card">
+            <div class="number">21</div>
+            <p class="name">Kimiko Trixie Aqeelah</p>
+            <p class="role">Team Member</p>
+          </div>
+          <div class="team-card">
+            <div class="number">31</div>
+            <p class="name">Nirwana Putri Arni</p>
+            <p class="role">Team Member</p>
+          </div>
+          <div class="team-card">
+            <div class="number">33</div>
+            <p class="name">Rifaya Aysel Maharani</p>
+            <p class="role">Team Member</p>
+          </div>
+        </div>
+      </section>
 
-            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAHGPM4jPoE/jiV3J7y0be9GyPsIYhi4JA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https://www.canva.com/design/DAHGPM4jPoE/3Te6f-Yp1aBW7Gq7IZaXaw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHGPM4jPoE&#x2F;3Te6f-Yp1aBW7Gq7IZaXaw&#x2F;view?utm_content=DAHGPM4jPoE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Jumino</a> oleh Kimi Aqeelah
-            
-        <script src="scripts.js"></script>
-        
-    </body>
+      <!-- About -->
+      <section class="design-section">
+        <h2 class="section-title">🍀 About Us</h2>
+        <p class="section-subtitle">Kenali lebih dekat kelompok kami</p>
+        <div class="design-steps">
+          <div class="design-step">
+            <div class="step-number">🤝</div>
+            <div class="step-content">
+              <h3>Teamwork Makes the Dream Work</h3>
+              <p>Kelompok kami terdiri dari empat orang yang saling mendukung dan bekerja sama dengan baik. Melalui kebersamaan ini, kami berupaya menghasilkan ide-ide kreatif serta membangun kerja tim yang solid dan harmonis.</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">💄</div>
+            <div class="step-content">
+              <h3>Passion for Beauty</h3>
+              <p>Kami menghadirkan berbagai referensi makeup dari style yang sedang populer di kalangan remaja, mulai dari Douyin Makeup hingga Soft Glam. Setiap style memiliki keunikan dan pesona tersendiri!</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">🌟</div>
+            <div class="step-content">
+              <h3>Terima Kasih!</h3>
+              <p>Terima kasih sudah berkunjung ke website kami. Semoga tutorial yang kami hadirkan bisa menjadi inspirasi untuk kalian semua. Jangan lupa explore semua kategori makeup ya! 💕</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <marque> design by jumino </marque>
+      <!-- Canva Embed -->
+      <section class="embed-section">
+        <h2 class="section-title">📊 Presentasi Kami</h2>
+        <p class="section-subtitle">Lihat presentasi lengkap kelompok Jumino</p>
+        <div class="embed-container">
+          <iframe loading="lazy" src="https://www.canva.com/design/DAHGPM4jPoE/jiV3J7y0be9GyPsIYhi4JA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+        </div>
+      </section>
 
+    </div>
+
+    <footer class="footer">
+      <p class="footer-brand">JUMINO</p>
+      <p class="footer-text">Made with <span class="heart">❤️</span> by Kelompok Jumino</p>
+      <div class="footer-members">
+        <span>Filza</span>
+        <span>•</span>
+        <span>Kimiko</span>
+        <span>•</span>
+        <span>Nirwana</span>
+        <span>•</span>
+        <span>Rifaya</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ═══ PAGE: TUTORIAL (PRODUCT) ═══ -->
+  <div class="page" id="page-tutorial">
+    <div class="container">
+
+      <section class="hero" style="padding-bottom: 20px;">
+        <h1>🛍️ Produk Kami</h1>
+        <p class="subtitle">Tutorial makeup interaktif</p>
+        <p class="divider">────୨ৎ────</p>
+        <p class="hero-description">
+          Di bawah ini tutorial versi Python (Trinket). Klik <strong>MASUK</strong>, lalu pilih look untuk melihat slideshow tutorial step-by-step. Pakai panah kiri/kanan atau klik tombol di layar untuk navigasi. ✨
+        </p>
+      </section>
+
+      <!-- ═══ TRINKET PYTHON EMBED (slideshow versi Python) ═══ -->
+      <section class="embed-section">
+        <h2 class="section-title">🐍 Tutorial Versi Python (Trinket)</h2>
+        <p class="section-subtitle">Klik MASUK lalu pilih look untuk lihat step-by-step</p>
+        <div class="trinket-embed">
+          <iframe src="https://trinket.io/embed/python/e3bd37481cfd?start=result" width="100%" height="680" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <p class="footer-brand">JUMINO</p>
+      <p class="footer-text">Made with <span class="heart">❤️</span> by Kelompok Jumino</p>
+    </footer>
+  </div>
+
+  <!-- ═══ PAGE: DESIGN PROCESS ═══ -->
+  <div class="page" id="page-design">
+    <div class="container">
+
+      <section class="hero" style="padding-bottom: 20px;">
+        <h1>✨ Design Process</h1>
+        <p class="subtitle">Bagaimana kami membuat website ini</p>
+        <p class="divider">────୨ৎ────</p>
+      </section>
+
+      <section class="design-section">
+        <div class="design-steps">
+          <div class="design-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Riset & Inspirasi</h3>
+              <p>Kami memulai dengan melakukan riset tentang berbagai style makeup yang sedang trending di kalangan remaja, mulai dari Douyin, Korean, Baddie, Scandinavian, hingga Soft Glam.</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Pengumpulan Konten</h3>
+              <p>Setelah menentukan kategori, kami mengumpulkan gambar-gambar tutorial makeup berkualitas tinggi untuk setiap style. Masing-masing kategori berisi 12 langkah tutorial.</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Desain Logo & Branding</h3>
+              <p>Logo "Jumino" dirancang dengan karakter cat girl yang lucu dan daun semanggi empat sebagai simbol keberuntungan. Warna pastel mint, kuning, dan biru menjadi identitas brand kami.</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Pembuatan Website</h3>
+              <p>Website dibuat menggunakan HTML, CSS, dan JavaScript. Desain responsif agar bisa diakses dari berbagai perangkat. Fitur slideshow memudahkan pengguna untuk melihat tutorial step-by-step.</p>
+            </div>
+          </div>
+          <div class="design-step">
+            <div class="step-number">5</div>
+            <div class="step-content">
+              <h3>Testing & Publikasi</h3>
+              <p>Website diuji untuk memastikan semua fitur berjalan dengan baik, kemudian dipublikasikan melalui GitHub Pages agar mudah diakses oleh semua orang.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Canva Embed -->
+      <section class="embed-section">
+        <h2 class="section-title">📊 Presentasi Lengkap</h2>
+        <p class="section-subtitle">Slide presentasi kelompok Jumino</p>
+        <div class="embed-container">
+          <iframe loading="lazy" src="https://www.canva.com/design/DAHLe4eW-vM/ivVZKqM7WJLH3UzVV_EKhg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+        </div>
+        <p class="section-subtitle" style="margin-top:12px;">
+          <a href="https://www.canva.com/design/DAHLe4eW-vM/ivVZKqM7WJLH3UzVV_EKhg/view?utm_content=DAHLe4eW-vM&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">EDP JUMINO</a> oleh NIRWANA PUTRI ARNI
+        </p>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <p class="footer-brand">JUMINO</p>
+      <p class="footer-text">Made with <span class="heart">❤️</span> by Kelompok Jumino</p>
+    </footer>
+  </div>
+
+  <!-- ═══ SLIDESHOW OVERLAY dihapus: tutorial sekarang pakai Trinket Python ═══ -->
+
+  <script src="script.js"></script>
+</body>
 </html>
